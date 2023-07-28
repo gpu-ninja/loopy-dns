@@ -33,7 +33,7 @@ import (
 )
 
 func main() {
-	listenAddr := flag.String("listen", ":53", "The address to listen for DNS queries on")
+	listenAddr := flag.String("listen", ":5353", "The address to listen for DNS queries on")
 	zone := flag.String("zone", "", "Optionally restrict DNS queries to this zone")
 
 	flag.Parse()
